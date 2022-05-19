@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Square+Peg&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.text-blue-gradient {
+  background: -webkit-linear-gradient(283deg, #3984f4, #0cd3ff, #2f7cf0, #0e65e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
